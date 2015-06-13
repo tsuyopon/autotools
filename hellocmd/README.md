@@ -1,34 +1,34 @@
-Autotools Template
+hellocmd
 ==================
 
-Overview
+概要
 --------
+helloコマンドをインストールするためのスケルトン
 
-This is a skeleton project for a source tree based on the [GNU Build System](http://www.gnu.org/software/automake/manual/html_node/GNU-Build-System.html). The steps below walk through the process of running autotools so that the project can build built using the standard way:
-
-    ./configure && make && make install
-
-Prerequisites
+必要条件
 -------------
+インストールするためには以下のパッケージが必要です
+```
+$ autoconf
+$ automake
+```
 
-You will need to install the following GNU tools:
-
-    autoconf
-    automake
-
-
-Step-by-Step
+インストール方法
 ------------
 
-Clone this repository:
+1. Clone this repository:
 
+2. Generate the configure script:
+```
+$ autoreconf -ivf
+```
+
+3. Configure and build the project:
+```
+$ ./configure
+$ make
+```
+
+参考
+------------
     git clone https://github.com/gizero/autotools-skeleton.git
-
-Generate the configure script:
-
-    autoreconf -ivf
-
-Configure and build the project:
-
-    ./configure
-    make
