@@ -37,8 +37,7 @@ mkdir Debian
 cd Debian
 cp ../${PKGNAME}-${PKGVERSION}.tar.gz .
 tar zxvf ${PKGNAME}-${PKGVERSION}.tar.gz
-cd ${PKGNAME}-${PKGVERSION}.tar.gz
-
+cd ${PKGNAME}-${PKGVERSION}
 
 ########################################################
 # Create And Setup Debian Directory
