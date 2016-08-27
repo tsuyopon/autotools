@@ -1,16 +1,16 @@
 hellocmd\_rpm
 ==================
 
-概要
+# 概要
 --------
 helloコマンドをインストールするためのスケルトン
 さらにrpmパッケージを作成します
 
-必要条件
+# 必要条件
 -------------
-autotoolsやrpmbuildなどのパッケージが必要です
+autotoolsで必要なパッケージ(親ディレクトリのREADME.md参照)の他にrpm-buildをインストールしてください。
 
-rpmパッケージ作成方法
+# rpmパッケージ作成方法
 ------------
 下記コマンドを実行するだけでrpmまでを生成します。
 CreateTgzPkg.shはautotoolsを利用してtar.gzを生成し、buildrpm.shはtar.gzを利用してrpmを生成するスクリプトです。

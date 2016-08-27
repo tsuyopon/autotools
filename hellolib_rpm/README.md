@@ -11,6 +11,9 @@ autotoolsでtar.gzを生成した後にそのtar.gzを利用してrpmパッケ�
 - 4. tar.gzをビルドディレクトリにコピーしておく
 - 5. rpmbuildコマンドの引数に作業ディレクトリパスやspecファイルパスを指定して実行するとrpmパッケージが生成される
 
+# 依存パッケージ
+autotoolsで必要なパッケージ(親ディレクトリのREADME.md参照)の他にrpm-buildをインストールしてください。
+
 # rpmパッケージの作り方
 下記コマンドを実行するだけでrpmまでを生成します。
 CreateTgzPkg.shはautotoolsを利用してtar.gzを生成し、buildrpm.shはtar.gzを利用してrpmを生成するスクリプトです。
