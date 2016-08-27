@@ -45,4 +45,7 @@ $ sudo make install
  - shared object生成用のautotools templateを提供します。
 - hellolib_deb
  - hellolibにdeb生成用のスクリプトCreateDeb.shが含まれています。debパッケージを自動生成します。特にhellocmd_debとは変わりません。
+- hellolib_rpm
+ - hellolibにrpm生成用のスクリプトbuildrpm.shが含まれています。rpmパッケージを自動生成します。
+
 
