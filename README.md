@@ -39,13 +39,15 @@ $ sudo make install
 # 概要
 - hellocmd  
  - helloコマンド用のautotools templateを提供します
-- hellocmd_deb
- - hellocmdにdeb生成用のスクリプトCreateDeb.shが含まれています。debパッケージを自動生成します
 - hellolib
  - shared object生成用のautotools templateを提供します。
+- hellocmd_deb
+ - hellocmdにdeb生成用のスクリプトCreateDeb.shが含まれています。コマンドが含まれるdebパッケージを自動生成します
 - hellolib_deb
- - hellolibにdeb生成用のスクリプトCreateDeb.shが含まれています。debパッケージを自動生成します。特にhellocmd_debとは変わりません。
+ - hellolibにdeb生成用のスクリプトCreateDeb.shが含まれています。ライブラリが含まれるdebパッケージを自動生成します。
+- hellocmd_rpm
+ - hellolibにrpm生成用のスクリプトbuildrpm.shが含まれています。コマンドが含まれるrpmパッケージを自動生成します。
 - hellolib_rpm
- - hellolibにrpm生成用のスクリプトbuildrpm.shが含まれています。rpmパッケージを自動生成します。
+ - hellolibにrpm生成用のスクリプトbuildrpm.shが含まれています。ライブラリが含まれるrpmパッケージを自動生成します。
 
 
